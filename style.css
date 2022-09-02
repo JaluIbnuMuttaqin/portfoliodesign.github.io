@@ -1,0 +1,648 @@
+/* navbar */
+
+/* logo atas */
+
+.topLogo img {
+    width: 140px;
+    height: 30px;
+}
+
+.nav-item a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1C1E53;
+    margin-left: 15px;
+}
+
+.nav-item a:hover {
+    color: #5E3BEE;
+    border-bottom: 1px solid;
+}
+
+.buttonContact button {
+    display: inline;
+    flex-direction: row;
+    justify-content: center;
+    width: 128px;
+    height: 52px;
+    border: 1px solid #5E3BEE;
+    border-radius: 4px;
+    color: #5E3BEE;
+}
+
+.buttonContact button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* container 1 */
+
+.introduce {
+    background: #F5FCFF;
+    height: 747.31px;
+}
+
+
+.photoUser img {
+    width: 650px;
+    height: 530px;
+    margin-top: 80px;
+}
+
+.userName h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #282938;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.userExperience p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #282938;
+    margin-left: 40px;
+}
+
+.userExperience span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #5E3BEE;
+
+}
+
+.userHint p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1C1E53;
+    margin-left: 40px;
+}
+
+.btnGet button {
+    margin-left: 40px;
+    background: #5E3BEE;
+    border-radius: 4px;
+    width: 128px;
+    height: 52px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    display: block;
+}
+
+.btnGet button:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+/* container 2 */
+.mySkills h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #282938;
+    margin-top: 90px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.myExpertise h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #282938;
+    margin-left: 40px;
+    text-align: center;
+}
+
+/* skills */
+
+.nestedSkills {
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.skills {
+    background: #F5FCFF;
+    width: 300px;
+    height: 278px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border-bottom: 3px solid #5E3BEE;
+    padding-left: 20px;
+
+}
+
+.strategy,
+.branding,
+.UI,
+.webflow {
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* skills strategy */
+.strategy img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+/* skills branding */
+.branding img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+/* skills UI */
+.UI img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+/* skills webflow */
+.webflow img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.noteStrategy,
+.branding,
+.UI,
+.webflow,
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #282938;
+}
+
+.noteStrategy,
+.branding,
+.UI,
+.webflow,
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1C1E53;
+}
+
+
+
+/* About Me */
+.aboutMeUser img {
+    width: 610px;
+    height: 747px;
+    margin-left: 30px;
+    margin-top: 180px;
+}
+
+.aboutMeNote h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #282938;
+    margin-top: 400px;
+
+}
+
+.aboutMeNote p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1C1E53;
+    width: 616px;
+    height: 189px;
+    text-align: justify;
+}
+
+.myPortofolio {
+    margin-top: 70px;
+}
+
+.portofolio h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #282938;
+    margin-left: 40px;
+}
+
+.nestedBtnPortofolio {
+    width: 189px;
+    height: 56px;
+    background: #E62872;
+    border-radius: 8px;
+    float: right;
+    margin-right: 30px;
+}
+
+.nestedBtnPortofolio:hover {
+    background: white;
+    border: 1px solid #E62872;
+}
+
+.nestedBtnPortofolio a {
+    text-decoration: none;
+}
+
+.buttonPortofolio img {
+    border: none;
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.buttonPortofolio button {
+    border: none;
+    background: none;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.buttonPortofolio button:hover {
+    color: black;
+}
+
+/* my Project */
+
+
+.myProject {
+    width: 400px;
+    height: 491px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-left: 30px;
+    transform: translateX(5%);
+    margin-top: 80px;
+}
+
+.imgProject img {
+    width: 400px;
+    height: 300px;
+    transform: translateX(-3%);
+}
+
+.severalProject {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.severalProject h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #282938;
+}
+
+.severalProject p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1C1E53;
+}
+
+/* button dribble */
+
+.btnDribble {
+    width: 127px;
+    height: 30px;
+}
+
+.btnDribble button {
+    border: none;
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.btnDribble button:hover {
+    color: #5E3BEE;
+    border: 2px solid;
+}
+
+.btnDribble i {
+    width: 12px;
+    height: 12px;
+    color: black;
+}
+
+.btnDribble i:hover {
+    color: #5E3BEE;
+}
+
+/* testimonial Customer */
+.testimonialCustomer {
+    background: #F5FCFF;
+    margin-top: 120px;
+    height: 676.89px;
+
+}
+
+.testimonial {
+    margin-top: 80px;
+}
+
+.testimonial h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #282938;
+    margin-left: 30px;
+}
+
+.customer {
+    margin-top: 20px;
+    border: 1px solid #006B6A;
+    border-radius: 5px;
+    width: 400px;
+    height: 274.89px;
+}
+
+.dianne-russel {
+    margin-left: 30px;
+}
+
+.cristin-watson {
+    margin-left: 15px;
+}
+
+.rateCustomer img {
+    width: 116px;
+    height: 18.89px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.noteCustomer p {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 352px;
+    height: 72px;
+    text-align: justify;
+}
+
+.customerPhoto {
+    margin-top: 70px;
+}
+
+.customerPhoto img {
+    width: 56px;
+    height: 56px;
+    margin-left: 20px;
+}
+
+.customerName {
+    margin-left: 20px;
+}
+
+/* Get Contact */
+
+.contactMe h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #282938;
+    margin-top: 80px;
+}
+
+.contactMe h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #1C1E53;
+}
+
+.formContactMe {
+    margin-top: 50px;
+    width: 768px;
+    height: 645px;
+    transform: translateX(22%);
+}
+
+.formSection1 label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #282938;
+}
+
+.formSection1 input {
+    width: 372px;
+    height: 48px;
+    border: 1px solid #5E3BEE;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.lastName {
+    margin-left: 20px;
+}
+
+.phoneEmail {
+    margin-top: 20px;
+}
+
+.phoneNumber {
+    margin-left: 20px;
+}
+
+.formSection2 {
+    margin-top: 20px;
+}
+
+.formSection2 h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #282938;
+}
+
+.select select {
+    width: 765px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #5E3BEE;
+    border-radius: 6px;
+
+}
+
+.select option {
+    background: #FFFFFF;
+    border: 1px solid #5E3BEE;
+    font-size: 20px;
+}
+
+.message {
+    margin-top: 10px;
+}
+
+.message label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #282938;
+    margin-top: 7px;
+}
+
+.message textarea {
+    width: 765px;
+    height: 180px;
+    border: 1px solid #5E3BEE;
+    border-radius: 6px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.message input {
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #282938;
+    padding-left: 10px;
+}
+
+/* button */
+
+.btnSubmitForm {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.btnSubmitForm button {
+    background: #5E3BEE;
+    border-radius: 6px;
+    width: 128px;
+    height: 52px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.btnSubmitForm button:hover {
+    background-color: #FFFFFF;
+    border: 1px solid blue;
+    color: #000000;
+    padding-left: 10px;
+}
+
+/* footer */
+
+footer {
+    background: #F5FCFF;
+    width: 1440px;
+    height: 324px;
+    margin-top: 50px;
+}
+
+.bottomBar {
+    margin-top: 50px;
+
+}
+
+.footerButton {
+    margin-right: 20px;
+}
+
+.buttonSocialMedia a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000000;
+}
+
+.privacyOrPolicy {
+    margin-top: 100px;
+    display: flex;
+}
+
+
+
+.madeBy {
+    position: absolute;
+    margin-left: 15px;
+}
+
+.madeBy h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+
+}
+
+.footerPrivacyUl {
+    position: absolute;
+    right: 30px;
+    margin-right: 60px;
+
+}
+
+.footerPrivacyList li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footerPrivacyList li {
+    list-style: none;
+    margin-left: 20px;
+}
